@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SheCodes Project</title>
+</head>
+<style>
+   body { 
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.2em;
+      overflow: auto;
+   }
+   h1 {
+      display: inline-block;
+      font-weight: bolder;
+      margin-top: 0.6em;
+      margin-bottom: 0.5em;
+      }
+   .nav {
+      font-weight: bolder;
+      margin-top: 1.4em;
+      list-style-type: none;
+      padding: 0 10px;
+      float: right;
+   }
+   .nav li {
+      display: inline-block;
+      margin: auto;
+   }
+   img {
+      width: 280px;
+      height: 180px;
+   }
+   .border1 {
+      background-image: linear-gradient(30deg,mediumspringgreen, white, mediumspringgreen);
+      height: 230px;
+      text-align: center;
+      padding: 1em 20px;
+   }
+   .first {
+      padding: 0;
+      border-radius: 20px;
+      margin: auto;
+   }
+   button {
+      padding: 0.9em;
+      background-color: whitesmoke;
+      border: 1px solid whitesmoke;
+      border-radius: 10px;
+      box-shadow: 4px 4px 2px 1px;
+   }
+   button:hover {
+      color: gray;
+      transition: all 200ms ease-in;
+   }
+   .me {
+      text-align: center;
+      margin: 1em 0px;
+   }
+   @media (min-width: 300px) {
+    .border1 {
+      height: auto;
+      padding-bottom: 1.3em;
+    }
+}
+</style>
+<body>
+   <h1>Aris</h1>
+   <ul class="nav">
+      <li>&#9776;</li>
+   </ul><hr>
+   <div class="border1">
+   <img class="first" src="images\istockphoto-1518923093-612x612.jpg">
+   <div class="texts"><h2><em>Good food is the foundation of genuine happiness</em></h2>
+   <p>Experience a symphony of flavors from our recommended recipes<br>
+      Make the food that you love</p>
+      <p>Need any Nigerian food recipes? let us know!</p>
+   <button><strong>Contact us</strong></button>
+   </div></div><hr>
+   <div class="me">
+      <span>&#169 <a href="https://github.com/Aishat02">Aris</a>&#128155;</span>
+   </div>
+
+   <script>
+      function contactButton () {
+         let email = prompt("What is your email address?");
+         let text = prompt("Which food recipe would you like to see?");
+         let country = prompt("Country of desired recipe?");
+
+         if (country.toLowerCase() === "nigeria" || country.toUpperCase() == "NIGERIA") {
+            alert("Thank you we will work on it as soon as possible");
+         } else {
+            alert("Sorry we are currently unable to offer any food recipes for " + country);
+         }
+         
+      }
+      let contact = document.querySelector("button")
+      contact.addEventListener("click", contactButton)
+   </script>
+</body>
+</html>
