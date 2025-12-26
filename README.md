@@ -2,13 +2,6 @@
 
 A collection of my projects and learning journey from the **SheCodes** coding workshops.
 
-I started SheCodes to build a solid foundation in web development. Each project represents not just a technical solution. Through these workshops, I:
-
-1. **Built practical skills** through project-based learning
-2. **Developed problem-solving abilities** by tackling coding challenges
-3. **Created a portfolio** of real, working applications
-4. **Joined a community** of women in tech
-
 ## About SheCodes
 
 [SheCodes](https://www.shecodes.io/) is a coding workshop designed specifically for women, offering project-based learning in web development. Each workshop focuses on practical skills with real-world applications.
@@ -23,44 +16,22 @@ Throughout the SheCodes workshops, I learned:
 - **Frontend Frameworks:** React.js, API integration
 - **Deployment:** Netlify, Vercel, GitHub Pages
 
-## Learning Path
+## Project Directory
 
-### 1. **SheCodes Basics**
+I started SheCodes to build a solid foundation in web development. Each project represents not just a technical solution. Through these workshops, I:
 
-My introduction to coding covering:
+1. **Built practical skills** through project-based learning
+2. **Developed problem-solving abilities** by tackling coding challenges
+3. **Created a portfolio** of real, working applications
+4. **Joined a community** of women in tech
 
-- Basic HTML structure and semantic elements
-- CSS styling and selectors
-- JavaScript fundamentals (variables, functions, DOM manipulation)
-- Building my first interactive webpage
-
-### 2. **SheCodes Plus**
-
-Advanced front-end development:
-
-- Advanced JavaScript (arrays, objects, loops)
-- API integration (AJAX, fetch API)
-- ES6+ features (arrow functions, template literals)
-- Building more complex applications
-
-### 3. **SheCodes Responsive**
-
-Modern responsive design:
-
-- Mobile-first development
-- Advanced CSS (Flexbox, Grid)
-- Bootstrap framework
-- Responsive navigation and layouts
-
-### 4. **SheCodes React**
-
-Modern React development:
-
-- React components and props
-- State management
-- React hooks (useState, useEffect)
-- Building single-page applications
+| Workshop       | Description                                                 | Project Links                                                                                                                          |
+| -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Basics**     | Introduction to HTML, CSS & JavaScript fundamentals         | [View Project](https://github.com/Aishat02/shecodes/tree/main/shecodes-basic) • [Live Demo](https://aris-shecodes-basics.netlify.app/) |
+| **Plus**       | Advanced front-end with API integration & responsive design | [View Project](https://github.com/Aishat02/shecodes/tree/main/shecodes-plus) • [Live Demo](https://aris-shecodes-plus.netlify.app/)    |
+| **Responsive** | Mobile-first development with Bootstrap & CSS Grid          | [View Project](https://github.com/Aishat02/shecodes/tree/main/weather-app) • [Live Demo](https://aris-weather-app.netlify.app/)        |
+| **Croissant**  |                                                             | [View Project](https://github.com/Aishat02/shecodes/tree/main/croissant-challenge) • [Live Demo](https://aris-croissant.netlify.app/)  |
 
 ## Acknowledgments
 
-A special thanks to the SheCodes team for creating accessible, high-quality coding education for women. The structured curriculum and supportive community have been instrumental in my coding journey.
+A special thanks to the SheCodes team for creating accessible, high-quality coding education for women and for giving me a full scholarship. The structured curriculum and supportive community have been instrumental in my coding journey.
